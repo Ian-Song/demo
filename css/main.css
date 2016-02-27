@@ -1,0 +1,17 @@
+.headingLogo{
+  max-width: 150px;
+  margin:10px;
+  }
+.introduce{
+  position:absolute;
+  z-index: 1;
+  width: 600px;
+  top:200px;
+  text-align: center;
+  }
+  width: 600px;
+  top: 200px;
+  right: 50%;
+.img-responsive .container-fluid .row{
+    padding: 0;
+}
