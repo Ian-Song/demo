@@ -1,17 +1,21 @@
 .headingLogo{
   max-width: 150px;
-  margin:10px;
+  margin:10px 10px 10px -10px;
   }
-.introduce{
-  position:absolute;
+#pic1{
+  padding: 55px 0px 0px 0px!important;
+  position: relative;
+}
+#text1{
   z-index: 1;
-  width: 600px;
-  top:200px;
+  width: 1200px;
+  position:absolute;
+  left:50%;
+  top:60%;
+  margin-left: -600px;
+  color: white;
   text-align: center;
-  }
-  width: 600px;
-  top: 200px;
-  right: 50%;
-.img-responsive .container-fluid .row{
-    padding: 0;
+  line-height: 50px;
+  font-size: 40px;
+
 }
