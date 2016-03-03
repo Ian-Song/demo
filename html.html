@@ -18,6 +18,7 @@
     <![endif]-->
 </head>
 <body>
+  <div class="top-container top-container-img">
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -68,39 +69,48 @@
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
-  <div>
-    <img id="pic1" src="img/top-banner.jpg" class="img-responsive container-fluid pic" alt="Responsive image">
-    <h3>
-      <p id="text1">Use Liferay to build modern websites and portals to engage customers, partners, and employees.</p>
-    </h3>
-    </img>
+  <h2 class="top-container">
+    <p id="text1" >Use Liferay to build modern websites and portals to engage customers, partners, and employees.</p>
+  </h2>
   </div>
-  <div class="container-fluid">
+  <!-- 4 col -->
+  <div class="container-fluid" id="col-bg-img">
     <div class="row">
       <div class="col-xs-6 col-md-3">
-        <p class="col-text"> Serve Customers </p>
+        <h3 class="col-text col-text-style"> Serve Customers </h3>
         <img src="img/platform.png"/>
       </div>
-      <div class="col-xs-6 col-md-3">Work Together</div>
-      <div class="col-xs-6 col-md-3">Reach Prospects</div>
-      <div class="col-xs-6 col-md-3">Go Mobile</div>
+      <div class="col-xs-6 col-md-3">
+        <h3 class="col-text col-text-style">Work Together</h3>
+        <img src="img/platform.png"/>
+      </div>
+      <div class="col-xs-6 col-md-3">
+        <h3 class="col-text col-text-style">Reach Prospects</h3>
+        <img src="img/platform.png"/>
+      </div>
+      <div class="col-xs-6 col-md-3">
+        <h3 class="col-text col-text-style"> Go Mobile </h3>
+        <img src="img/platform.png"/>
+      </div>
     </div>
   </div>
   <hr class="divider">
-  <div class="container-fluid">
+<!-- 1-2col -->
+  <div class="container-fluid" >
     <div class="row">
-      <div class="col-md-4">
-        <img src="" />
+      <div class="col-md-5" id="mid-gartner">
+        <img class="gartner-logo" src="img/gartner-logo.svg" />
       </div>
-      <div class="col-md-8">
-        <p class="">A Leader in Gartner's 2015 Magic Quadrant for Horizontal Portals</p>
-        <button class="" />
+      <div class="col-md-7">
+        <h2 class="text-gartner">A Leader in Gartner's 2015 Magic Quadrant for Horizontal Portals</h2>
+        <a href="https://www.liferay.com/about-us/awards/gartnermq-portals?tactic_id=59223882" onclick="ga('send', 'event', 'Homepage', 'Banner CTAs', 'Gartner');" type="button" class="btn btn-default">Read the report</a>
       </div>
     </div>
   </div>
   <hr class="divider">
   <footer>
-    <p> © 2016 LIFERAY INC. ALL RIGHTS RESERVED</p>
+    <p class="footer-style"> © 2016 LIFERAY INC. ALL RIGHTS RESERVED</p>
+  </footer>
 
 
 

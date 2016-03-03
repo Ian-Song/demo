@@ -2,20 +2,47 @@
   max-width: 150px;
   margin:10px 10px 10px -10px;
   }
-#pic1{
-  padding: 55px 0px 0px 0px!important;
-  position: relative;
-}
 #text1{
-  z-index: 1;
-  width: 1200px;
-  position:absolute;
-  left:50%;
-  top:60%;
-  margin-left: -600px;
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  top: 60%;
+  padding: 0 20px;
   color: white;
   text-align: center;
   line-height: 50px;
   font-size: 40px;
 
+}
+.top-container-img{
+  background-image: url('img/top-banner.jpg');
+  height: 640px;
+  z-index: -1;
+}
+.top-container{
+  height: 640px;
+}
+.col-text-style{
+  text-align: center;
+  line-height: 30px;
+  font-style: italic;
+}
+#col-bg-img .col-md-3{
+  text-align: center;
+}
+.text-gartner{
+  max-width: 500px;
+}
+.gartner-logo{
+  display: block;
+  float: right;
+}
+#mid-gartner{
+  height: 100px;
+}
+#mid-gartner .gartner-logo{
+  margin: 20px;
+}
+.footer-style{
+  text-align: center;
 }
